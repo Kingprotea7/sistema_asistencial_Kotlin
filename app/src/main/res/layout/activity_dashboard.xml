@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_reportes"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#FF0000"
+        android:text="Reportes "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <Button
+        android:id="@+id/btn_usuarios"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#003FFF"
+        android:text="Usuarios"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <Button
+        android:id="@+id/btn_docentes"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#FF5722"
+        android:text="Docentes"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <Button
+        android:id="@+id/btn_salones"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Salones"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <Button
+        android:id="@+id/btn_asistencia"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Asistencia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <Button
+        android:id="@+id/btn_alumnado"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#FFC107"
+        android:text="Alumnado"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_dashboard" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_login" />
+
+    <TextView
+        android:id="@+id/txt_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="312dp"
+        android:text="Dashboard"
+        android:textColor="#BC0202"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
